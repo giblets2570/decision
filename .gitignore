@@ -1,0 +1,10 @@
+.env
+.classpath
+.settings
+.project
+bin/
+docs/
+node_modules/
+
+
+*.log
