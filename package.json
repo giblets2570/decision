@@ -7,7 +7,7 @@
     "node": "6.2.2"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -22,9 +22,20 @@
     "grunt-mocha-test": "^0.12.7",
     "mocha": "^2.5.3",
     "mock-couch": "^0.1.8",
+    "nodemon": "^1.10.0",
     "sinon": "^1.17.4",
     "sinon-chai": "^2.8.0"
   },
   "author": "Tom Murray",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "compression": "^1.6.2",
+    "cors": "^2.7.1",
+    "errorhandler": "^1.4.3",
+    "express": "^4.14.0",
+    "lodash": "^4.14.0",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.5.7"
+  }
 }
